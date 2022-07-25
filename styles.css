@@ -1,0 +1,63 @@
+/* No default styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header elements*/
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 3em;
+}
+
+/* form elements*/
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 15px;
+    width: 100vh;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(59, 59, 216);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* (dynamic)container elements */
+#container {
+    height:fit-content;
+    justify-content: center;
+    margin: 15px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    width: 50%;
+    display: inline;
+}
+
+.todoDiv {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.trash-button {
+    border: none;
+    background-color: white;
+}

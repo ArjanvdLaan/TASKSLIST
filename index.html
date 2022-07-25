@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Final Assignment: Todo List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Arjan's Todo </h1>
+        </header>
+        <form>
+            <!-- <label>New Task:</label> -->
+            <input placeholder="New Task..." type="text" id="task">
+            <button id="addTask" type="submit">Add Task</button>
+        </form>
+        <div id="container">
+            <ul id="taskList">
+
+            </ul>
+        </div>
+        <script src="./api-client.js" async defer type="module"></script>
+        <script src="./script.js"  async defer type="module"></script>
+    </body>
+</html>
